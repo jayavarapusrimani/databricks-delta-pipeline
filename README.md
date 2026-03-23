@@ -1,15 +1,12 @@
 # Transaction Data Processing using Azure Databricks
 
 ## Overview
-
 This project demonstrates an end-to-end data pipeline built using Azure Databricks and Delta Lake to process customer transaction and loan datasets. The pipeline follows a layered architecture (Bronze, Silver, Gold) to ensure scalable and structured data processing.
 
 ---
 
 ## Architecture
-
 The data pipeline is designed using a multi-layer architecture:
-
 * **Bronze Layer**: Raw data ingestion from CSV files into ADLS Gen2
 * **Silver Layer**: Data cleaning, transformation, and deduplication using PySpark
 * **Gold Layer**: Aggregated and curated data stored in Delta tables for reporting
@@ -28,7 +25,6 @@ The data pipeline is designed using a multi-layer architecture:
 ---
 
 ## Data Flow
-
 1. Raw data (accounts, customers, transactions, loans) is ingested into ADLS (Bronze layer)
 2. Databricks notebooks process and clean the data
 3. Transformations are applied using PySpark (filtering, joins, aggregations)
