@@ -55,8 +55,6 @@ The data pipeline is designed using a multi-layer architecture:
 
 ## Screenshots
 
-(Add screenshots here)
-
 * Databricks Notebook Execution
 * Delta Table Output
 * Data Transformation Steps
